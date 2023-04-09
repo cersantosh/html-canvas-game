@@ -1,0 +1,65 @@
+body{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.score{
+    position: absolute;
+    top: 20px;
+    width: 500px;
+    height: 300px;
+}
+
+.show_score{
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+
+.show_score button{
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 30px;
+}
+
+.show_score span{
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+#canvas{
+    border: 3px solid red;
+}
+
+.buttons{
+    margin-top: 20px;
+    /* border: 3px solid red; */
+}
+.buttons button{
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+}
+.buttons .left{
+    margin-right: 20px;
+}
+
+.buttons .up{
+    margin-left: calc(50% - 50px);
+}
+
+.buttons .down{
+    margin-left: calc(50% - 50px);
+}
